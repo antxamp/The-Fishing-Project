@@ -12,16 +12,6 @@ for the user so they don't end up going home empty handed!
 - To display the average amount of time spent on fishing with the data that was provided.
 - Use machine learning to predict the probability of a catch.
 
---------------------------
-
-## Module 20 (Segment 3 Deliverable)
-### Below is the criteria for Segement 3 rubric:
-- Using Google Slide
-- GitHub 
-- Machine Learning
-- Database
-- Dashboard
-
 ----------------------------
 ## Google Slide Presentation
 - In Google slides all team members were all allowed access and added to the presentation via live during class. 
@@ -46,7 +36,7 @@ for the user so they don't end up going home empty handed!
 
 ----------------------------
 
-## Machine Learning Overview (Segment 3 Deliverable)
+## Machine Learning Overview
 
 - Our analysis dives in on fishing trip data on the east coast of the united states. North Carolina is a fishing hub offering a wide variety of fishing tourism options through private rentals and charter boats. Our model sets out to determine how successful fishers are at catching fish based on several factors. Our intial data was sourced from NOAA and held a variety of incomplete records. As a part of our data cleaning, we stripped out non-relevant qualitative columns to focus on key components of fishing trips including type of boat, excursion location, date/time, houirs fished and proximity to shore. When we initially ran our model, we noticed a a perfect success rate indicating something was inadvertently skewing our model. Upon diving into the data, we discovered "number of fish available for inspection" was carrying the majority of the weight in our features for determining our accuracy. Since our focus is probability of catching fish as opposed to "quanitity" we made the decision to remove this field. Upon doing so and re-runnning the model, we had a much more reasonable accuracy rate. Our data was split based on the outcome of the fishing trip e.g. were fish caught or not.
 
@@ -79,7 +69,6 @@ Here is a screenshot of the data put into a machine learning model.
 ----------------------------
 
 ## Database
-### Segment 3
 - Read in data from 6 source files
 ![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/6SourceFiles.PNG)
 - Assembled comprehensive dataframe
@@ -119,8 +108,7 @@ Here is a screenshot of the data put into a machine learning model.
 
 ----------------------------
 
-## Dashboard
-### Segment 3 Dashboard
+## Creating Dashboard
 
 [Click here to see our Dashboard on Tableau](https://public.tableau.com/views/TheFishingProject/CountiesNC?:language=en-US&:display_count=n&:origin=viz_share_link)
 
@@ -145,15 +133,6 @@ Here is a screenshot of the data put into a machine learning model.
 - With this dashboard you’re able to click around and identify the best area and times with just a quick glimpse. This was created using the Tableau dashboard options.
 
 ![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/Interactive.PNG)
-
-----------------------------
-## Google Slides 
-# Results:
-
-![image](https://github.com/ddw26/Team-Frist-Center/blob/antxamp/Resources/results.png)
-
-
-
 
 -----------------------------
 
